@@ -1,0 +1,33 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#countdown li {
+    width: 3.5rem; /* Set the desired width */
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: bold; /* Bold the numbers */
+    font-family: 'Helvetica', sans-serif; /* Use a suitable font style */
+    font-size: 2rem;
+    color: #383838;
+}
+
+#countdown li::before {
+    content: attr(id);
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}

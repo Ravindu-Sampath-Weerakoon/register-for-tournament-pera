@@ -1,0 +1,30 @@
+.pdf{
+  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.download-button {
+    background-color: rgb(96, 74, 82);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.download-icon {
+    margin-right: 10px;
+}
+
+.download-button:hover {
+    background-color: rgb(75, 41, 41);
+}

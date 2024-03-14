@@ -1,0 +1,29 @@
+:root {
+    --eggplant: #63404Dff;
+    --raw-umber: #88654Bff;
+    --dun: #D2C1AEff;
+    --golden-brown: #9C671Dff;
+    --harvest-gold: #D0993Dff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, #414141, #D0993Dff, #63404Dff); /* Initial gradient colors */
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s infinite;
+    
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

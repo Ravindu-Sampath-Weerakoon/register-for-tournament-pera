@@ -1,0 +1,51 @@
+.nav-container {
+    background-color: #ffffff; /* Choose a background color for the navigation bar */
+    padding: 0.5rem;
+    border-radius:  0 0 50px 50px  ; /* Set the desired rounded corner radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25% 0rem 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #383838; /* Set the text color for the title */
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 2rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 75px; /* Set the height of your logo */
+    margin-bottom: 0.5rem;
+
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 2rem;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+    color: #383838; /* Set the text color of the menu items */
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.nav-menu li:hover {
+    color: #936803; /* Change the text color on hover */
+}
